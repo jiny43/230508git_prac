@@ -11,18 +11,19 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import FollowerFollowing from "./FollowerFollowing";
 // import ReviewPage from "./ReviewPage";
 // import MainFeed from "./mainFeed";
-// import API from "../components/Bookcover";
+import TopMenu from "./TopMenu";
 
 import "./index.css";
-import BookReviewFeed from "./bookReviewFeed";
+// import BookReviewFeed from "./bookReviewFeed";
 // import Bookcover from "../components/Bookcover";
 
 const App = () => {
   return (
     <div>
-      <BookReviewFeed />
+      {/* <BookReviewFeed /> */}
       {/* <ReviewPage /> */}
       {/* <Bookcover /> */}
+      <TopMenu />
     </div>
     // <Router>
     //   <Routes>
